@@ -277,7 +277,11 @@ button {
  * Media - (_basic.scss)
  * ------------------------------------------------------------------- 
  */
-img,
+img {
+	max-width: 100%;
+	/* height: auto; */
+}
+
 video {
 	max-width: 100%;
 	height: auto;
